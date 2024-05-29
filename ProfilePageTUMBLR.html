@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tumblr Blog</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+        .sidebar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 200px;
+            height: 100vh;
+            background-color: black;
+            padding: 20px;
+        }
+        .sidebar ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        .sidebar ul li {
+            margin-bottom: 10px;
+        }
+        .content {
+            margin-left: 220px;
+            padding: 20px;
+        }
+        .post-image {
+            max-width: 100%;
+            height: auto;
+        }
+        .blog-info {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .blog-header {
+            font-size: 24px;
+            font-weight: bold;
+            margin-top: 40px;
+        }
+        .blog-details {
+            margin-top: 10px;
+        }
+        .blog-nav {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+        }
+        .blog-nav a {
+            margin: 0 10px;
+            color: white;
+            text-decoration: none;
+        }
+        .sponsored {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background-color: rgba(255, 255, 255, 0.2);
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .container {
+            position: relative;
+            display: center;
+            align-items: center;
+        }
+
+        .container img {
+            width: flex;
+            height: flex;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 90%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+
+        .overlay img {
+            width: 30%;
+            height: 30%;
+        }
+        .Name {
+            position: absolute;
+            margin-top: 80px;
+            top: 90%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+
+        .sign-out {
+            background-color: blue;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            display: inline-block;
+        }
+        .sign-out:hover {
+            background-color: gray;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="blog-info">
+        <div class="container">
+            <img src="C:\Users\Ariana\Downloads\Screenshot 2024-05-28 175539.png" alt="Background Image">
+            <div class="overlay">
+                <img src="C:\Users\Ariana\Downloads\temporary-profile-placeholder-1.jpg" alt="Overlaid Image">
+            </div>
+        </div>
+        <div class="blog-header">Unknown</div>
+        <div class="blog-details">
+            <span>@unknown / </span>
+            <span>unknown.tumblr.com</span>
+        </div>
+        <div class="blog-details">
+            <span>art name: noone</span>
+        </div>
+        <div class="blog-nav">
+            <a href="#">Blog settings</a>
+            <a href="#">Ask me anything</a>
+            <a href="#">...</a>
+        </div>
+        <div class="blog-nav">
+            <a href="#">Posts</a>
+            <a href="#">Likes</a>
+            <a href="#">Following</a>
+        </div>
+        <div class="blog-nav">
+            <a href="C:\Users\Ariana\Documents\college files\2ND YEAR\WebDev1\SignInTUMBLR.html" class="sign-out">Sign Out</a>
+        </div>
+    </div>
+</body>
+</html>
